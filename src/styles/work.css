@@ -201,7 +201,7 @@ img{
     position: absolute;
     font-size: 2.5vw;
     text-align: center;
-    font-family: 'Noto Sans Miao';
+    font-family: "Noto Sans Miao", sans-serif;
     font-weight: 600;
     color: white;
 }
@@ -225,7 +225,7 @@ img{
     -webkit-text-stroke-color: #ffffff;
     -webkit-text-stroke-width: 0.2vw;
     font-family: sans-serif;    
-    font-family: 'Noto Sans';
+    font-family: "Noto Sans", sans-serif;
 }
 
 .pinkBar{
@@ -247,7 +247,7 @@ img{
 
 .section1{
     margin-top: 4vw;
-    font-family: 'Noto Sans';
+    font-family: "Noto Sans", sans-serif;
     display: block;
     height: 82vw;
 }
@@ -264,7 +264,7 @@ img{
     margin-left: 15.8vw;
     font-weight: 900;
     letter-spacing: -0.07vw;
-    font-family: 'Noto Sans';
+    font-family: "Noto Sans", sans-serif;
 }
 
 .para1,.para2,.para3{
@@ -272,7 +272,7 @@ img{
     text-align: center;
     font-weight: 700;
     font-size: 1.2vw;
-    font-family: 'Noto Sans';
+    font-family: "Noto Sans", sans-serif;
 }
 
 button{
@@ -578,7 +578,7 @@ width: 26vw;
 }
 
 .box2{
-    font-family: 'Noto Sans';
+    font-family: "Noto Sans", sans-serif;
     padding-top: 21vw;
     width: 51.4vw;
     margin-left: 23vw;
@@ -629,11 +629,11 @@ width: 51.4vw;
 }
 
 footer{
-    font-family: 'Noto Sans';
+    font-family: "Noto Sans", sans-serif;
     margin-top: 56vw;
     font-weight: 500;
     margin-left: 41vw;
-    /* font-family: 'Noto Sans Miao'; */
+    /* font-family: "Noto Sans Miao", sans-serif; */
     font-size: 0.9vw;
     letter-spacing: 90%;
 }
@@ -844,7 +844,7 @@ img{
     position: absolute;
     font-size: 8vw;
     text-align: center;
-    font-family: 'Noto Sans Miao';
+    font-family: "Noto Sans Miao", sans-serif;
     font-weight: 600;
     color: white;
     line-height: 27vw;
@@ -858,7 +858,7 @@ img{
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-color: #ffffff;
     -webkit-text-stroke-width: 0.4vw;   
-    font-family: 'Noto Sans';
+    font-family: "Noto Sans", sans-serif;
 }
 
 .pinkBar{
@@ -880,7 +880,7 @@ img{
 
 .section1{
     margin-top: 4vw;
-    font-family: 'Noto Sans';
+    font-family: "Noto Sans", sans-serif;
     display: block;
     height: 172vw;
 }
@@ -896,7 +896,7 @@ img{
     margin-left: 24.2vw;
     font-weight: 900;
     letter-spacing: -0.07vw;
-    font-family: 'Noto Sans';
+    font-family: "Noto Sans", sans-serif;
 }
 
 .para1,.para2,.para3{
@@ -904,7 +904,7 @@ img{
     text-align: center;
     font-weight: 700;
     font-size: 2.6vw;
-    font-family: 'Noto Sans';
+    font-family: "Noto Sans", sans-serif;
 }
 
 button{
@@ -1200,7 +1200,7 @@ width: 26vw;
 
 
 .box2{
-    font-family: 'Noto Sans';
+    font-family: "Noto Sans", sans-serif;
     padding-top: 28vw;
     width: 88%;
     margin-left: 5vw;
@@ -1258,11 +1258,11 @@ width: 26vw;
 }
 
 footer{
-    font-family: 'Noto Sans';
+    font-family: "Noto Sans", sans-serif;
     margin-top: 100vw;
     font-weight: 600;
     margin-left: 26vw;
-    /* font-family: 'Noto Sans Miao'; */
+    /* font-family: "Noto Sans Miao", sans-serif; */
     font-size: 2.3vw;
     letter-spacing: 90%;
 }
@@ -1403,4 +1403,13 @@ footer{
   transform: rotate3d(0, 0, 0, 15deg);
 }
 
+}
+footer, .rights6 {
+    text-align: center !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    left: 0 !important;
 }

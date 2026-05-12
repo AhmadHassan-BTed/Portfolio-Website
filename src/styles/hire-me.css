@@ -3,7 +3,7 @@ body{
     background: linear-gradient(black 70%,rgb(0, 0, 51) );
     background-size: 100vw 120vh;
     background-repeat:repeat;
-    font-family: 'Fira Code', monospace;
+    font-family: "Fira Code", monospace, monospace;
     color: white;
 }
 
@@ -16,7 +16,7 @@ pre{
     top: -8vw;
     display: inline-block;
     width: 40vw;
-    font-family: 'Fira Code', monospace;
+    font-family: "Fira Code", monospace, monospace;
     font-size: 1.1vw;
     margin-left: 1.7vw;
 }
@@ -106,7 +106,7 @@ width: 100%;
         transition: transform 0.3s ease-in-out;
         background-color:#b40060;
         color: #ffffff;
-        font-family: 'Noto Sans Miao';
+        font-family: "Noto Sans Miao", sans-serif;
     }
     
     
@@ -121,7 +121,7 @@ width: 100%;
 
 footer{
     position:absolute;
-    font-family: 'Noto Sans Miao';
+    font-family: "Noto Sans Miao", sans-serif;
     top: 50vw;
     margin-left: 39vw;
     font-size: 1vw;
@@ -188,7 +188,7 @@ footer{
         background: linear-gradient(black 66%,rgb(0, 0, 61) );
         background-size: 100vw 130vh;
         background-repeat:repeat;
-        font-family: 'Fira Code', monospace;
+        font-family: "Fira Code", monospace, monospace;
         color: white;
     }
 
@@ -230,7 +230,7 @@ footer{
         position: absolute;
         padding-top: 7vw;
         display: inline-block;
-        font-family: 'Fira Code', monospace;
+        font-family: "Fira Code", monospace, monospace;
         font-size: 2.7vw;
         line-height: 2.2vh;
         left:3vw;
@@ -250,7 +250,7 @@ footer{
       position: absolute;
       padding-top: 7vw;
       display: inline-block;
-      font-family: 'Fira Code', monospace;
+      font-family: "Fira Code", monospace, monospace;
       font-size: 2.7vw;
       line-height: 2.2vh;
       left:3vw;
@@ -376,7 +376,7 @@ footer{
   transition: transform 0.3s ease-in-out;
   background-color: #b40060;
   color: #ffffff;
-  font-family: 'Noto Sans Miao';
+  font-family: "Noto Sans Miao", sans-serif;
   top: 145vw;
   left: 29.8vw;
 }
@@ -384,7 +384,7 @@ footer{
     
     footer{
         position: absolute;
-        font-family: 'Noto Sans Miao';
+        font-family: "Noto Sans Miao", sans-serif;
         /* bottom: 1vw; */
         margin-top: 190vw;
         margin-left: 31vw;
@@ -417,4 +417,14 @@ footer{
         top: 10vw;
     }
     
+}
+
+footer, .rights6 {
+    text-align: center !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    left: 0 !important;
 }

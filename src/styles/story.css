@@ -6,13 +6,13 @@ body{
     border: 0%;
     border: 0;
     height: 100vh;
-    font-family: 'Noto Sans';
-    background-image: url("BackStars.png");
+    font-family: "Noto Sans", sans-serif;
+    background-image: url("../../public/assets/backstars.png");
     background-size: 100%;
 }
 
 pre,h1,p{
-    font-family: 'Noto Sans', sans-serif;
+    font-family: "Noto Sans", sans-serif;
 }
 
 img{
@@ -65,7 +65,7 @@ button{
         transition: transform 0.3s ease-in-out;
         background-color:#D11D58;
         color: #ffffff;
-        font-family: 'Noto Sans Miao';
+        font-family: "Noto Sans Miao", sans-serif;
         display: inline-block;
     }
     
@@ -116,7 +116,7 @@ button:hover{
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-color: #ffffff;
     -webkit-text-stroke-width: 0.1vw;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: "Noto Sans", sans-serif;
     font-weight: 900;
 }
 
@@ -126,7 +126,7 @@ button:hover{
     font-weight: 700;
     display: inline-block;
     margin-top: 2vw;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: "Noto Sans", sans-serif;
     text-shadow: 1px 0px rgb(0 0 0);
 }
 
@@ -256,7 +256,7 @@ footer{
     border-width: 0.2vw;
     border-style:solid;
     border-radius: 1.2vw;
-    font-family: 'Noto Sans Miao';
+    font-family: "Noto Sans Miao", sans-serif;
     height: 3.7vw;
     border: 0.2vw solid transparent;
     background: linear-gradient(#b1b1b1,#ffffff0d) border-box;
@@ -303,13 +303,13 @@ footer{
         border: 0%;
         border: 0;
         height: 100vh;
-        font-family: 'Noto Sans';
-        background-image: url("BackStars.png");
+        font-family: "Noto Sans", sans-serif;
+        background-image: url("../../public/assets/backstars.png");
         background-size: 100%;
     }
     
     pre,h1,p{
-        font-family: 'Noto Sans', sans-serif;
+        font-family: "Noto Sans", sans-serif;
     }
     
     img{
@@ -362,7 +362,7 @@ footer{
         transition: transform 0.3s ease-in-out;
         background-color:#D11D58;
         color: #ffffff;
-        font-family: 'Noto Sans Miao';
+        font-family: "Noto Sans Miao", sans-serif;
         display: inline-block;
         }
         
@@ -418,7 +418,7 @@ footer{
         -webkit-text-fill-color: transparent;
         -webkit-text-stroke-color: #ffffff;
         -webkit-text-stroke-width: 0.5vw;
-        font-family: 'Noto Sans', sans-serif;
+        font-family: "Noto Sans", sans-serif;
         font-weight: 800;
     }
     
@@ -428,7 +428,7 @@ footer{
         font-weight: 700;
         display: inline-block;
         margin-top: 9vw;
-        font-family: 'Noto Sans', sans-serif;
+        font-family: "Noto Sans", sans-serif;
         text-shadow: 1px 0px rgb(0 0 0);
     }
     
@@ -566,7 +566,7 @@ footer{
     border-width: 0.1vw;
     border-style:solid;
     border-radius: 1.2vw;
-    font-family: 'Noto Sans Miao';
+    font-family: "Noto Sans Miao", sans-serif;
     height: 9vw;
     left: 13vw;
     margin-top: -20vw;
@@ -614,4 +614,13 @@ footer{
     width: 8vw;
 }
     
+}
+footer, .rights6 {
+    text-align: center !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    left: 0 !important;
 }

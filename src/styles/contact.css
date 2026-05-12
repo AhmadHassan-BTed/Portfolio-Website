@@ -3,7 +3,7 @@ body{
     color: white;
     background-repeat: repeat;
     background-size: 100vw 100vh;
-    font-family: 'Noto Sans';
+    font-family: "Noto Sans", sans-serif;
 }
 
 img{
@@ -83,7 +83,7 @@ img{
 .getReady,.toLeaveEm1,.toLeaveEm2,.speechless{
     font-size: 7vw; 
     left: 4vw;   
-    font-family: 'Noto Sans';
+    font-family: "Noto Sans", sans-serif;
     position: absolute;
     font-weight: 700;
 }
@@ -161,7 +161,7 @@ color: white;
     font-weight: 600;
     font-size: 0.8vw;
     opacity: 1; 
-    font-family: 'Noto Sans';
+    font-family: "Noto Sans", sans-serif;
 
   }
   
@@ -170,7 +170,7 @@ color: white;
     font-weight: 600;
     font-size: 0.8vw;
     opacity: 1; 
-    font-family: 'Noto Sans';
+    font-family: "Noto Sans", sans-serif;
   }
   
   ::-moz-placeholder {
@@ -178,7 +178,7 @@ color: white;
     font-weight: 600;
     font-size: 0.8vw;
     opacity: 1; 
-    font-family: 'Noto Sans';
+    font-family: "Noto Sans", sans-serif;
   }
   
   ::-webkit-input-placeholder {
@@ -186,7 +186,7 @@ color: white;
     font-weight: 600;
     font-size: 0.8vw;
     opacity: 1; 
-    font-family: 'Noto Sans';
+    font-family: "Noto Sans", sans-serif;
   }
   
 .button{
@@ -223,10 +223,10 @@ color: white;
 footer{
     position: absolute;
     bottom: 0;
-    font-family: 'Noto Sans';
+    font-family: "Noto Sans", sans-serif;
     font-weight: 500;
     right: 20vw;
-    /* font-family: 'Noto Sans Miao'; */
+    /* font-family: "Noto Sans Miao", sans-serif; */
     font-size: 0.7vw;
     letter-spacing: 90%;
 }
@@ -261,7 +261,7 @@ footer{
         color: white;
         background-repeat: repeat;
         background-size: 100vw 137vh;
-        font-family: 'Noto Sans';
+        font-family: "Noto Sans", sans-serif;
     }
     
     img{
@@ -331,7 +331,7 @@ footer{
     .getReady,.toLeaveEm1,.toLeaveEm2,.speechless{
         font-size: 15.8vw; 
         left: 7vw;   
-        font-family: 'Noto Sans';
+        font-family: "Noto Sans", sans-serif;
         position: absolute;
         font-weight: 700;
     }
@@ -406,7 +406,7 @@ footer{
         font-weight: 600;
         font-size: 12vw;
         opacity: 1; 
-        font-family: 'Noto Sans';
+        font-family: "Noto Sans", sans-serif;
     
       }
       
@@ -415,7 +415,7 @@ footer{
         font-weight: 600;
         font-size: 0.8vw;
         opacity: 1; 
-        font-family: 'Noto Sans';
+        font-family: "Noto Sans", sans-serif;
       }
       
       ::-moz-placeholder {
@@ -423,7 +423,7 @@ footer{
         font-weight: 600;
         font-size: 0.8vw;
         opacity: 1; 
-        font-family: 'Noto Sans';
+        font-family: "Noto Sans", sans-serif;
       }
       
       ::-webkit-input-placeholder {
@@ -431,7 +431,7 @@ footer{
         font-weight: 600;
         font-size: 2.2vw;
         opacity: 1; 
-        font-family: 'Noto Sans';
+        font-family: "Noto Sans", sans-serif;
       }
       
     .button {
@@ -475,10 +475,10 @@ footer{
         position: absolute;
         top: 200vw;
         margin-bottom: 5vw;
-        font-family: 'Noto Sans';
+        font-family: "Noto Sans", sans-serif;
         font-weight: 500;
         right: 30vw;
-        /* font-family: 'Noto Sans Miao'; */
+        /* font-family: "Noto Sans Miao", sans-serif; */
         font-size: 1.7vw;
         letter-spacing: 90%;
         margin-bottom: 4vw;
@@ -514,4 +514,13 @@ footer{
     
     
 
+}
+footer, .rights6 {
+    text-align: center !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    left: 0 !important;
 }

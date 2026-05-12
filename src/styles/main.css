@@ -4,7 +4,7 @@ body{
     width: 100%;
 }
 h1,p,button,li,h3,a{
-    font-family: 'Noto Sans Miao';
+    font-family: "Noto Sans Miao", sans-serif;
 }
 img{
     width:0px;
@@ -156,6 +156,8 @@ button:hover{
     display:inline-block;
 }
 
+/*Page 1 completed*/
+/*Starting Page No 2*/
 
 .title2{
     display: inline-block;
@@ -201,6 +203,7 @@ button:hover{
     width: 77%;
 }
 
+/*Page 3 Starting*/
 
 .title31{
     display: inline-block;
@@ -291,11 +294,12 @@ button:hover{
 }
 
 
+/*Page 4 Start*/
 
 .Page4{
     border-color: black;
     background-color: black;
-    background-image: url("../../public/assets/pinkWallpaper.png");
+    background-image: url("../../public/assets/pinkwallpaper.png");
     background-position: 0%;
     background-origin:border-box ;
     background-position-x: center ;
@@ -473,6 +477,7 @@ button:hover{
     margin-left: 18vw;
 }
 
+/*Starting page 5*/
 
 .heading5,.heading52{
     font-size: 1.7vw;
@@ -642,7 +647,7 @@ button:hover{
     border-color: rgb(255, 255, 255);
     background-color: white;
     height: 52vw;
-    background-image: url("../../public/assets/whiteArt1.png");
+    background-image: url("../../public/assets/whiteart1.png");
     background-position: 0%;
     background-origin:border-box ;
     background-position-x: center ;
@@ -651,6 +656,7 @@ button:hover{
     background-size: 100%;
 }
 
+/*footerbox*/
 .FooterBox{
     border-color: #0E0E0E;
     background-color: rgb(14, 14, 14);
@@ -797,7 +803,7 @@ button:hover{
     }
     
     h1,p,button,li,h3{
-        font-family: 'Noto Sans Miao', sans-serif;
+        font-family: "Noto Sans Miao", sans-serif;
     }
     
     img{
@@ -1016,7 +1022,7 @@ button:hover{
     }
 
     .Page2{
-        background-image: url("../../public/assets/whiteLogoHalf.png");
+        background-image: url("../../public/assets/whitelogohalf.png");
         background-position: right top;
         background-repeat: no-repeat;
         background-size: 40%;
@@ -1041,7 +1047,8 @@ button:hover{
         width: 60%;
     }
     
-        .title31{
+    /*Page 3 Starting*/
+    .title31{
         display: inline-block;
         font-size: 3.67vw;
         padding-left: 17%;
@@ -1184,7 +1191,7 @@ button:hover{
     .Page4{
         border-color: black;
         background-color: black;
-        background-image: url("../../public/assets/PinkWallpaper.png");
+        background-image: url("../../public/assets/pinkwallpaper.png");
         background-position: 0%;
         background-origin:border-box ;
         background-position-x: center ;
@@ -1374,7 +1381,8 @@ button:hover{
         margin-left: 50%;
     }
     
-        
+    /*Starting page 5*/
+    
     .heading5,.heading52{
         margin-bottom:11vw;
         font-size: 3.67vw;
@@ -1700,4 +1708,13 @@ button:hover{
     h1,h3{
         letter-spacing:-1px;
     }
+}
+footer, .rights6 {
+    text-align: center !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    left: 0 !important;
 }
