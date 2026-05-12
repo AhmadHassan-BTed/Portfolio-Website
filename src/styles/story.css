@@ -7,7 +7,7 @@ body{
     border: 0;
     height: 100vh;
     font-family: "Noto Sans", sans-serif;
-    background-image: url("../../public/assets/backstars.png");
+    background-image: url("../assets/backstars.png");
     background-size: 100%;
 }
 
@@ -304,7 +304,7 @@ footer{
         border: 0;
         height: 100vh;
         font-family: "Noto Sans", sans-serif;
-        background-image: url("../../public/assets/backstars.png");
+        background-image: url("../assets/backstars.png");
         background-size: 100%;
     }
     

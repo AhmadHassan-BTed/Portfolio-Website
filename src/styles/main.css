@@ -299,7 +299,7 @@ button:hover{
 .Page4{
     border-color: black;
     background-color: black;
-    background-image: url("../../public/assets/pinkwallpaper.png");
+    background-image: url("../assets/pinkwallpaper.png");
     background-position: 0%;
     background-origin:border-box ;
     background-position-x: center ;
@@ -647,7 +647,7 @@ button:hover{
     border-color: rgb(255, 255, 255);
     background-color: white;
     height: 52vw;
-    background-image: url("../../public/assets/whiteart1.png");
+    background-image: url("../assets/whiteart1.png");
     background-position: 0%;
     background-origin:border-box ;
     background-position-x: center ;
@@ -1022,7 +1022,7 @@ button:hover{
     }
 
     .Page2{
-        background-image: url("../../public/assets/whitelogohalf.png");
+        background-image: url("../assets/whitelogohalf.png");
         background-position: right top;
         background-repeat: no-repeat;
         background-size: 40%;
@@ -1191,7 +1191,7 @@ button:hover{
     .Page4{
         border-color: black;
         background-color: black;
-        background-image: url("../../public/assets/pinkwallpaper.png");
+        background-image: url("../assets/pinkwallpaper.png");
         background-position: 0%;
         background-origin:border-box ;
         background-position-x: center ;
