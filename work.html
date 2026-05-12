@@ -1,101 +1,223 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore the innovative projects and artworks by Ahmad Hassan (B-Ted). From horror games to digital art.">
-    <title>Work | Ahmad Hassan (B-Ted)</title>
-    <link rel="icon" href="assets/whitelogo.png" type="image/icon type">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Sevillana&family=Yanone+Kaffeesatz:wght@200;400&family=Noto+Serif&family=Noto+Sans+Miao&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="src/styles/work.css">
+<title>Ahmad's Work</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="whitelogo.png" type="image/icon type">
+<link rel="stylesheet" href="Work.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sevillana&family=Yanone+Kaffeesatz:wght@200&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Sevillana&family=Yanone+Kaffeesatz:wght@200&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Miao&family=Noto+Serif&family=Sevillana&family=Yanone+Kaffeesatz:wght@200&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
+    <script>
+      const elements = document.querySelectorAll('.gameTab1, .gameTab2, .gameTab3, .gameTab4, .gameTab5');
+  
+      function handleHoverTransition() {
+        // Apply the hover animation styles here
+      }
+  
+      const debouncedHoverTransition = _.debounce(handleHoverTransition, 200); // Adjust the debounce delay as needed
+  
+      elements.forEach((element) => {
+        element.addEventListener('mouseenter', debouncedHoverTransition);
+      });
+    </script>
 
-    <section class="page1">
-        <img class="phone1" src="assets/phone1.png" alt="Phone App View 1">
-        <img class="phone2" src="assets/phone2.png" alt="Phone App View 2">
-        <img class="phone3" src="assets/phone3.png" alt="Phone App View 3">
-        <img class="watch" src="assets/watch.png" alt="Smart Watch View">
-        <img class="tab" src="assets/tab.png" alt="Tablet View">
-        <img class="window" src="assets/window.png" alt="Desktop Window View">
-        <div class="tagLine">
-            <h1 class="make">MAKE</h1>
-            <h1 class="em">'EM</h1>
-            <h1 class="stare">STARE<span class="highlight">!!</span></h1>
-        </div>
-    </section>
+<div class="page1">
+<img class="phone1" src="Phone1.png">
+<img class="phone2" src="Phone2.png">
+<img class="phone3" src="Phone3.png">
+<img class="watch" src="Watch.png">
+<img class="tab" src="Tab.png">
+<img class="window" src="Window.png">
+<div class="tagLine"> 
+<h1 class="make"> MAKE </h1> 
+<h1 class="em">'EM </h1>
+<h1 class="stare">STARE<font color=ED007F>!!</font> </h1> 
+</div>
 
-    <div class="whiteBar"></div>
-    <div class="pinkBar"></div>
+</div>
 
-    <section class="section1">
-        <div class="box1">
-            <h2 class="title1">Cursed Tomorrow</h2>
-            <p class="para1">
-                An innovative horror game being developed using the C++ programming language along with various graphics and audio libraries. The project heavily incorporates object-oriented programming (OOP) concepts for a robust architecture.
-                <br><br>
-                The storyline revolves around an enigmatic and unsettling plot. Players find themselves trapped within a succession of illusion-filled escape rooms, relentlessly pursued by an Unidentified and Ominous Creature.
-            </p>
-            <button class="button1" onclick="location.href='/contact-me.html'">Enquire Now</button>
-        </div>
+<div class="whiteBar"></div>
+<div class="pinkBar"></div>
+<div class="section1">
 
-        <div class="gameTabs">
-            <img class="gameTab1" src="assets/game1.png" alt="Game Screenshot 1">
-            <img class="gameTab2" src="assets/game2.png" alt="Game Screenshot 2">
-            <img class="gameTab3" src="assets/game3.png" alt="Game Screenshot 3">
-            <img class="gameTab4" src="assets/game4.png" alt="Game Screenshot 4">
-            <img class="gameTab5" src="assets/game5.png" alt="Game Screenshot 5">
-        </div>
-    </section>
+<div class="box1">
+    <h2 class="title1">Cursed Tomorrow</h2>
+    <p class="para1">An innovative horror game being developed using the C++ programming language along with various graphics and audio libraries within heavily incorporate object-oriented programming (OOP) concepts
+ <br> <br>
+    The storyline of the game revolves around an enigmatic and unsettling plot. As players advance through the game, they will discover themselves trapped within a succession of illusion-filled escape rooms, relentlessly pursued by an Unidentified and Ominous Creature</p>
+<button class="button1" onclick="location.href='contactMe.html'">Buy</button>
 
-    <section class="section2">
-        <div class="quranTabs">
-            <div class="leftQuranBox">
-                <img class="leftQuran" src="assets/leftQuran.png" alt="Quran UI Left">
-            </div>
-            <img class="frontQuran" src="assets/frontQuran.png" alt="Quran UI Main">
-            <div class="rightQuranBox">
-                <img class="rightQuran" src="assets/rightQuran.png" alt="Quran UI Right">
-            </div>
-        </div>
+</div>
 
-        <div class="box2">
-            <h2 class="title2">Al-Quranic Institutions</h2>
-            <p class="para2">
-                An exquisite online platform designed to offer a seamless journey through the timeless verses of the Holy Quran.
-                <br><br>
-                Immersing users in the ethereal beauty of typography, it captures the essence of divine revelation. Each click unveils a treasure trove of comprehensive tafsir and soul-stirring recitations.
-            </p>
-            <button class="button2" onclick="location.href='/contact-me.html'">View Project</button>
-        </div>
-    </section>
+<div class="gameTabs">
+ <img class="gameTab1" src="Game1.png">
+ <img class="gameTab2" src="Game2.png">
+ <img class="gameTab3" src="Game3.png">
+ <img class="gameTab4" src="Game4.png">   
+ <img class="gameTab5" src="Game5.png"> 
+</div>
 
-    <section class="section3">
-        <h2 class="title31">MILLIONS <span class="highlight">OF</span> ARTWORKS</h2>
-        <img class="twist" src="assets/twist.png" alt="Art Twist">
+</div>
 
-        <div class="box3">
-            <h2 class="title32">GET YOURS NOW <span class="highlight">!!</span></h2>
-            <p class="para3">
-                Ignite Your Brand with an Exclusive Design. Bring your unique vision to life with a highly skilled and passionate designer to elevate your business to new heights.
-                <br><br>
-                Don't miss this opportunity to witness the transformation of your brand into an unforgettable visual masterpiece!!
-            </p>
-            <button class="button3" onclick="location.href='/hire-me.html'">Start Project</button>
-        </div>
-    </section>
+<div class="section2">
 
-    <footer>
-        <p>Copyright 2023 © <span class="highlight"><b>B-Ted</b></span>. All rights reserved.</p>
-    </footer>
+<div class="quranTabs">
+    <div class="leftQuranBox">
+    <img class="leftQuran" src="LeftQuran.png">
+    </div>
+    <img class="frontQuran" src="FrontQuran.png">
+    <div class="rightQuranBox">
+    <img class="rightQuran" src="RightQuran.png">
+    </div>
+</div>
 
-    <script type="module" src="src/scripts/work.js"></script>
+<div class="box2">
+
+<t2 class="title2">Al-Quranic Institutions</t2>
+<p class="para2">An exquisite online platform in the digital realm, elegantly designed to offer a seamless journey through the timeless verses of the Holy Quran
+<br><br>
+Immersing users in the ethereal beauty of its typography, it is meticulously crafted to capture the essence of divine revelation, within unveiling each click as treasure trove of comprehensive tafsir, soul-stirring recitations, fostering a deep connection with the Holy Wisdom
+</p>
+
+<button class="button2" onclick="location.href='contactMe.html'">Buy</button>
+
+
+</div>
+
+</div>
+
+<div class="section3">
+
+<h2 class="title31">MILLIONS <font color="ED007F">OF</font> ARTWORKS</h2>
+<img class="twist" src="Twist.png">
+
+<div class="box3">
+<h2 class="title32">GET YOURS NOW <font color="ED007F">!!</font></h2>
+<p class="para3">Ignite Your Brand with an Exclusive Design
+    Bring your unique vision to life by a highly skilled and passionate designer to elevate your business to new heights; A design that captivates and leaves a lasting impression
+   <br>
+    So, don't miss this thrilling opportunity and reach out  today to unleash your ideas and witness the transformation of your brand into an unforgettable visual masterpiece!!
+</p>
+<button class="button3" onclick="location.href='HireMe.html'">Create</button>
+
+</div>
+
+</div>
+
+<footer>
+    <p>Copyright 2023 © <font color="ad005c"><b>B-Ted</b></font>. All rights reserved.</p>
+</footer>
+<!-- JavaScript code starts here -->
+<script>
+  /**
+   * Determine the mobile operating system.
+   * This function returns one of 'iOS', 'Android', 'Windows Phone', or 'unknown'.
+   *
+   * @returns {String}
+   */
+  function getMobileOperatingSystem() {
+    var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+    // Windows Phone must come first because its UA also contains "Android"
+    if (/windows phone/i.test(userAgent)) {
+      return "Windows Phone";
+    }
+
+    if (/android/i.test(userAgent)) {
+      return "Android";
+    }
+
+    // iOS detection from: http://stackoverflow.com/a/9039885/177710
+    if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+      return "iOS";
+    }
+
+    return "unknown";
+  }
+
+  // Get the mobile operating system
+  var mobileOS = getMobileOperatingSystem();
+
+  // Apply the appropriate keyframes animation based on the mobile operating system
+  if (mobileOS === "iOS") {
+  // Apply different animations to each game tab
+  var gameTab1 = document.querySelector('.gameTab1');
+  var gameTab2 = document.querySelector('.gameTab2');
+  var gameTab3 = document.querySelector('.gameTab3');
+  var gameTab4 = document.querySelector('.gameTab4');
+  var gameTab5 = document.querySelector('.gameTab5');
+  
+    gameTab1.style.animation = "moveTab1 60s linear infinite";
+    // gameTab1.style.animationDelay = "0s";
+    
+    gameTab2.style.animation = "moveTab2 60s linear infinite";
+    // gameTab2.style.animationDelay = "10s";
+    
+    gameTab3.style.animation = "moveTab3 60s linear infinite";
+    // gameTab3.style.animationDelay = "10s";
+    
+    gameTab4.style.animation = "moveTab4 60s linear infinite";
+    // gameTab4.style.animationDelay = "10s";
+    
+    gameTab5.style.animation = "moveTab5 60s linear infinite";
+    // gameTab5.style.animationDelay = "10s";
+    
+    var gameTabs = document.querySelectorAll('.gameTab1, .gameTab2, .gameTab3, .gameTab4, .gameTab5');
+gameTabs.forEach(function(tab) {
+  tab.classList.add("rotate-15deg");
+});
+
+  } else {
+    // Apply different animations to specific game tabs
+    var gameTab1 = document.querySelector('.gameTab1');
+    var gameTab3 = document.querySelector('.gameTab3');
+    var gameTab5 = document.querySelector('.gameTab5');
+
+    // Apply animation to gameTab1, gameTab3, gameTab5
+    if (gameTab1 && gameTab3 && gameTab5) {
+      gameTab1.style.animation = "movee1 6s infinite linear";
+      gameTab3.style.animation = "movee1 6s infinite linear";
+      gameTab5.style.animation = "movee1 6s infinite linear";
+    }
+
+    var gameTab2 = document.querySelector('.gameTab2');
+    var gameTab4 = document.querySelector('.gameTab4');
+    var gameTab = document.querySelector('.gameTab');
+
+    // Apply animation to gameTab2, gameTab4, gameTab
+    if (gameTab2 && gameTab4 && gameTab) {
+      gameTab2.style.animation = "move 0s infinite linear";
+      gameTab4.style.animation = "move 0s infinite linear";
+      gameTab.style.animation = "move 0s infinite  linear";
+    }
+  }
+
+  // Display the mobile operating system in an alert
+//   alert("Mobile Operating System: " + mobileOS);
+</script>
+
 </body>
 
 </html>
