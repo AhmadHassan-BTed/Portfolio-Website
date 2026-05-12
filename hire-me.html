@@ -3,41 +3,15 @@
 <html>
 
 <head>
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Hire Me</title>
-<link rel="icon" href="whitelogo.png" type="image/icon type">
-<link rel="stylesheet" href="hireMeCSS.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sevillana&family=Yanone+Kaffeesatz:wght@200&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Sevillana&family=Yanone+Kaffeesatz:wght@200&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Miao&family=Noto+Serif&family=Sevillana&family=Yanone+Kaffeesatz:wght@200&display=swap" rel="stylesheet">
-
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-<script>
-  var myDiv = document.getElementById('my-div');
-
-  window.addEventListener('resize', function() {
-    if (window.innerWidth <= 600) {
-      myDiv.innerHTML = 'Small Screen Content';
-    } else {
-      myDiv.innerHTML = 'Default Content';
-    }
-  });
-
-</script>
-
+    <meta charset="UTF-8">
+    <title>Hire Me | Ahmad Hassan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/whitelogo.png" type="image/icon type">
+    <link rel="stylesheet" href="src/styles/hire-me.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Sevillana&family=Yanone+Kaffeesatz:wght@200;400&family=Noto+Serif&family=Noto+Sans+Miao&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
 <body>
@@ -162,45 +136,7 @@
 
 
 
-<script src="HireMeJavas.js" ></script>
-
-
-<script>
-  function showDiv(divNum) {
-
-    // var buttons = document.getElementsByClassName('tab-button');
-
-    
-    var button1 = document.querySelector('.tab-button1');
-    var button2 = document.querySelector('.tab-button2');
-    var pre = document.querySelector('pre');
-    var rightForm = document.querySelector('.rightBox');
-    
-    if (divNum == 1) {
-
-      pre.classList.add('show');
-      
-      rightForm.classList.remove('show');
-      rightForm.classList.add('remove');
-
-      button1.classList.add('active');
-      button2.classList.remove('active');
-
-    }
-    else if (divNum == 2) {
-
-      pre.classList.add('remove');
-      pre.classList.remove('show');
-      pre.classList.remove('pre');
-
-      rightForm.classList.add('show');
-
-      button2.classList.add('active');
-      button1.classList.remove('active');
-    }
-
-  }
-</script>
+<script type="module" src="src/scripts/hire-me.js"></script>
 
 </div>
 
