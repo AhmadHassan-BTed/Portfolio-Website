@@ -1,5 +1,10 @@
-import _ from 'lodash';
-
+function debounce(func, wait) {
+    let timeout;
+    return function (...args) {
+        clearTimeout(timeout);
+        timeout = setTimeout(() => func.apply(this, args), wait);
+    };
+}
 
 document.addEventListener('DOMContentLoaded', () => {
     initHoverEffects();
@@ -9,8 +14,12 @@ document.addEventListener('DOMContentLoaded', () => {
 function initHoverEffects() {
     const elements = document.querySelectorAll('.gameTab1, .gameTab2, .gameTab3, .gameTab4, .gameTab5');
 
+    // Simple transition handler if not defined elsewhere
+    const handleHoverTransition = (event) => {
+        event.target.style.transition = 'all 0.3s ease';
+    };
 
-    const debouncedHoverTransition = _.debounce(handleHoverTransition, 200);
+    const debouncedHoverTransition = debounce(handleHoverTransition, 200);
 
     elements.forEach((element) => {
         element.addEventListener('mouseenter', debouncedHoverTransition);
