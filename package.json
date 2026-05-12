@@ -1,0 +1,18 @@
+{
+  "name": "ahmad-hassan-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Personal Portfolio of Ahmad Hassan",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --write ."
+  },
+  "author": "Ahmad Hassan",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "prettier": "^3.0.0"
+  }
+}
