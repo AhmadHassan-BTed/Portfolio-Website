@@ -20,7 +20,7 @@ This project bridges the gap between complex software engineering and high-fidel
 
 <br/>
 
-## 🏗️ Architecture Overview
+##  Architecture Overview
 
 The repository is structured with a focus on strict modularity and high cohesion. By separating the build-time logic from the runtime assets, the system ensures near-instantaneous load times and maintainable code boundaries.
 
@@ -46,7 +46,7 @@ graph TD
 
 <br/>
 
-## 🔄 System Workflow
+##  System Workflow
 
 The project utilizes a modern development lifecycle, transitioning from raw source files to an optimized production container.
 
@@ -67,7 +67,7 @@ sequenceDiagram
 
 <br/>
 
-## 📂 Repository Structure
+##  Repository Structure
 
 A carefully organized hierarchy designed for scalability and clear separation of concerns.
 
@@ -88,26 +88,26 @@ A carefully organized hierarchy designed for scalability and clear separation of
 
 <br/>
 
-## 🚀 Technical Features
+##  Technical Features
 
 <details open>
-<summary><b>🎨 High-Fidelity UI/UX</b></summary>
+<summary><b> High-Fidelity UI/UX</b></summary>
 Polished aesthetics with fluid transitions and pixel-perfect layouts, meticulously crafted to reflect Ahmad's design philosophy.
 </details>
 
 <details>
-<summary><b>⚡ Optimized Build Pipeline</b></summary>
+<summary><b> Optimized Build Pipeline</b></summary>
 Leveraging Vite for tree-shaking, automated bundling, and high-performance asset serving.
 </details>
 
 <details>
-<summary><b>🐳 Containerization</b></summary>
+<summary><b> Containerization</b></summary>
 Full Docker support for consistent deployment across any environment, served through a lightweight Nginx image.
 </details>
 
 <br/>
 
-## 🛠️ Development Workflow
+##  Development Workflow
 
 The project is maintained with a focus on ease of onboarding and technical trustworthiness.
 
@@ -124,7 +124,7 @@ The project is maintained with a focus on ease of onboarding and technical trust
 
 <br/>
 
-## 🚢 Deployment Pipeline
+##  Deployment Pipeline
 
 Data flows from the local development environment through an automated build cycle to the final production container.
 
@@ -141,7 +141,7 @@ graph LR
 
 <br/>
 
-## 👤 Credits
+##  Credits
 
 This entire ecosystem, from the low-level architecture to the high-level design systems, was engineered and curated solely by **Ahmad Hassan (B-Ted)**. 
 
